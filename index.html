@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="login.js"></script>
+        <script src="logout.js"></script>
+        <title>Login Page</title>
+    </head>
+    <body>
+        <div class="login-container">
+            <h2>Sign Up</h2>
+            <form id="signup-form" onsubmit="return signup()">
+                <label for="new-username">New Username:</label>
+                <input type="text" id="new-username" name="new-username" required>
+
+                <label for="new-password">New Password:</label>
+                <input type="password" id="new-password" name="new-password" required>
+
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </body>
+</html>

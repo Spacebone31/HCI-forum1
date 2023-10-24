@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="feedback.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Feedback Form</title>
+    </head>
+    <body>
+        <div class="feedback-container">
+            <h2>Feedback Form</h2>
+            <form id="feedback-form">
+                <div class="form-group">
+                    <label for="feedback-input">Feedback:</label>
+                    <textarea id="feedback-input" name="feedback-input" required></textarea>
+                </div>
+ 
+                <button type="button" id="submit-button" onclick="submitForm()">Submit</button>
+            </form>
+
+            <button type="button" id="submit-again-button" onclick="submitAgain()" class="hidden">Submit Form Again</button>
+            <button type="button" id="home-button" onclick="goHome()">Home</button>
+        </div>
+
+        <script src="feedback.js"></script>
+    </body>
+</html>

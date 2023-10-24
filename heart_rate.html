@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="heart_rate.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Heart Rate Monitor</title>
+    </head>
+    <body>
+        <div class="heartrate-container">
+            <h2>Heart Rate Monitor</h2>
+            <div class="pulse-image">
+                <img src="heartbeat-pulse.gif" alt="An animated pulse image">
+            </div>
+            <div class="heart-rate">
+                <p>Heart Rate: <span id="heart-rate-value">75</span> bpm</p>
+            </div>
+            <button type="button" id="home-button" onclick="goHome()">Home</button>
+        </div>
+
+        <script src="heart_rate.js"></script>
+    </body>
+</html>
